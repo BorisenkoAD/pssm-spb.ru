@@ -1,0 +1,53 @@
+.rewiews{
+		/* Отступ для содержимого, помещенного в splash */
+	padding-top: 36px;
+	min-height: 468px;
+	/* Цвет текста */
+	font-family: "MyriadProRegular";
+	color:#000;
+	background-color: #eeeeee;
+	font-family: "MyriadProRegular";
+	font-size: 15px;
+	padding-bottom: 15px;
+	text-align:center;
+}
+
+
+.title {
+	font-size: 35px;
+	color: #000;
+}
+.project p {
+text-indent: 25px;
+}
+.infoWindows {
+	height: 235px;
+    margin-right: 25px;
+    margin-left: 25px;
+	margin-top: 25px;
+	 margin-bottom: 20px;
+	box-shadow: 0 2px 4px #ababab;
+}
+
+.infoWindows .blueHeader {
+	height: 45px;
+	/* Картинка, которая используются для splash */
+	background-image:url(../img/searchWindowsHeader.png);
+	/* Масштабируем картинку с сохранением пропорций */
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "MyriadProRegular" !important;
+	font-size: 16px;
+	color: #fff;	
+}
+.infoWindows .infoBody {
+	text-align: justify;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-indent: 25px;
+}
+.p2 {
+font-size: 20px;
+text-indent: 25px;
+text-align: justify;
+}
